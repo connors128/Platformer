@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerPlaneMovement : MonoBehaviour
 {
 
-    public GameObject Player;
+    public static GameObject Player;
 
     static int onNumPlatforms = 0;
 

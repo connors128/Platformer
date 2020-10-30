@@ -2082,7 +2082,7 @@ GameObject:
   - component: {fileID: 380783814}
   m_Layer: 0
   m_Name: Platform2
-  m_TagString: Untagged
+  m_TagString: Platform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2099,7 +2099,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4cf6e4f0fe1d88498c742d159c9051e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 722315239}
 --- !u!114 &380783814
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2222,7 +2221,7 @@ GameObject:
   - component: {fileID: 420457802}
   m_Layer: 0
   m_Name: Platform4 (2)
-  m_TagString: Untagged
+  m_TagString: Platform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2253,7 +2252,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4cf6e4f0fe1d88498c742d159c9051e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 722315239}
 --- !u!114 &420457802
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2362,7 +2360,7 @@ GameObject:
   - component: {fileID: 495215512}
   m_Layer: 0
   m_Name: Platform4 (3)
-  m_TagString: Untagged
+  m_TagString: Platform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2393,7 +2391,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4cf6e4f0fe1d88498c742d159c9051e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 722315239}
 --- !u!114 &495215512
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2502,7 +2499,7 @@ GameObject:
   - component: {fileID: 536377734}
   m_Layer: 0
   m_Name: Platform4 (4)
-  m_TagString: Untagged
+  m_TagString: Platform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2533,7 +2530,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4cf6e4f0fe1d88498c742d159c9051e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 722315239}
 --- !u!114 &536377734
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2642,7 +2638,7 @@ GameObject:
   - component: {fileID: 625507057}
   m_Layer: 0
   m_Name: Platform4 (9)
-  m_TagString: Untagged
+  m_TagString: Platform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2673,7 +2669,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4cf6e4f0fe1d88498c742d159c9051e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 722315239}
 --- !u!114 &625507057
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2782,7 +2777,7 @@ GameObject:
   - component: {fileID: 661772848}
   m_Layer: 0
   m_Name: Platform1
-  m_TagString: Untagged
+  m_TagString: Platform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2799,7 +2794,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4cf6e4f0fe1d88498c742d159c9051e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 722315239}
 --- !u!114 &661772849
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2905,11 +2899,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &722315239 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7020247728973293430, guid: 2174e4eee1919d84d96c1930aaeb1dc6, type: 3}
-  m_PrefabInstance: {fileID: 7020247729427153041}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &779476532
 GameObject:
   m_ObjectHideFlags: 0
@@ -2927,7 +2916,7 @@ GameObject:
   - component: {fileID: 779476535}
   m_Layer: 0
   m_Name: Platform4 (11)
-  m_TagString: Untagged
+  m_TagString: Platform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2958,7 +2947,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4cf6e4f0fe1d88498c742d159c9051e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 722315239}
 --- !u!114 &779476535
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3067,7 +3055,7 @@ GameObject:
   - component: {fileID: 886186187}
   m_Layer: 0
   m_Name: Platform4 (1)
-  m_TagString: Untagged
+  m_TagString: Platform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3098,7 +3086,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4cf6e4f0fe1d88498c742d159c9051e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 722315239}
 --- !u!114 &886186187
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3413,7 +3400,7 @@ GameObject:
   - component: {fileID: 1169381097}
   m_Layer: 0
   m_Name: Platform4 (6)
-  m_TagString: Untagged
+  m_TagString: Platform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3444,7 +3431,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4cf6e4f0fe1d88498c742d159c9051e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 722315239}
 --- !u!114 &1169381097
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3553,7 +3539,7 @@ GameObject:
   - component: {fileID: 1228659667}
   m_Layer: 0
   m_Name: Platform4 (7)
-  m_TagString: Untagged
+  m_TagString: Platform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3584,7 +3570,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4cf6e4f0fe1d88498c742d159c9051e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 722315239}
 --- !u!114 &1228659667
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3693,7 +3678,7 @@ GameObject:
   - component: {fileID: 1273579303}
   m_Layer: 0
   m_Name: Platform4 (10)
-  m_TagString: Untagged
+  m_TagString: Platform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3724,7 +3709,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4cf6e4f0fe1d88498c742d159c9051e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 722315239}
 --- !u!114 &1273579303
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6577,7 +6561,7 @@ GameObject:
   - component: {fileID: 1861175011}
   m_Layer: 0
   m_Name: Platform4 (8)
-  m_TagString: Untagged
+  m_TagString: Platform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6608,7 +6592,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4cf6e4f0fe1d88498c742d159c9051e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 722315239}
 --- !u!114 &1861175011
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6717,7 +6700,7 @@ GameObject:
   - component: {fileID: 1877006385}
   m_Layer: 0
   m_Name: Platform4 (5)
-  m_TagString: Untagged
+  m_TagString: Platform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6748,7 +6731,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4cf6e4f0fe1d88498c742d159c9051e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 722315239}
 --- !u!114 &1877006385
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6857,7 +6839,7 @@ GameObject:
   - component: {fileID: 1994832882}
   m_Layer: 0
   m_Name: Platform4
-  m_TagString: Untagged
+  m_TagString: Platform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6874,7 +6856,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4cf6e4f0fe1d88498c742d159c9051e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 722315239}
 --- !u!114 &1994832882
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6997,7 +6978,7 @@ GameObject:
   - component: {fileID: 2001463533}
   m_Layer: 0
   m_Name: Platform3
-  m_TagString: Untagged
+  m_TagString: Platform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7014,7 +6995,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4cf6e4f0fe1d88498c742d159c9051e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 722315239}
 --- !u!114 &2001463533
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7137,7 +7117,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7020247728973293436, guid: 2174e4eee1919d84d96c1930aaeb1dc6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.64
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7020247728973293436, guid: 2174e4eee1919d84d96c1930aaeb1dc6, type: 3}
       propertyPath: m_LocalPosition.y
@@ -7145,7 +7125,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7020247728973293436, guid: 2174e4eee1919d84d96c1930aaeb1dc6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -43.6
+      value: -45
       objectReference: {fileID: 0}
     - target: {fileID: 7020247728973293436, guid: 2174e4eee1919d84d96c1930aaeb1dc6, type: 3}
       propertyPath: m_LocalRotation.x

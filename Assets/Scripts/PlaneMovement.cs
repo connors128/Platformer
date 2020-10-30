@@ -27,7 +27,7 @@ public class PlaneMovement : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        Plane.transform.Translate( Amplitude * GetAxis(axisOfTransform) * Mathf.Sin(((2 * Time.timeSinceLevelLoad) / changeTime) * Speed) * Time.fixedDeltaTime );
+        Plane.transform.Translate(Amplitude * GetAxis(axisOfTransform) * Mathf.Sin(((2 * Time.timeSinceLevelLoad) / changeTime) * Speed) * Time.fixedDeltaTime);
     }
     public Vector3 GetAxis(axisTransform axis)
     {

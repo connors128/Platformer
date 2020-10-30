@@ -27,6 +27,7 @@ public class FPSMovement : MonoBehaviour
             moveDirection *= walkSpeed;
             if (Input.GetButton("Jump"))
             {
+                controller.Move(moveDirection * Time.deltaTime);
                 moveDirection.y = jumpSpeed;
             }
             if(Input.GetKey(KeyCode.LeftShift))
