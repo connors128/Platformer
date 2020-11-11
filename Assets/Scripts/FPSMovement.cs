@@ -9,8 +9,9 @@ public class FPSMovement : MonoBehaviour
                  jumpSpeed = 8.0f,
                  runSpeed = 8.0f,
                  gravity = 20.0f;
-    private Vector3 moveDirection = Vector3.zero;
-    private CharacterController controller;
+    public Vector3 moveDirection = Vector3.zero;
+
+    static CharacterController controller;
 
     void Start()
     {
@@ -19,25 +20,34 @@ public class FPSMovement : MonoBehaviour
 
     void Update()
     {
-        if(controller.isGrounded)
+        if (controller.isGrounded)
         {
             moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
             moveDirection = Camera.main.transform.TransformDirection(moveDirection);
             moveDirection.y = 0.0f; //important for not 'jumping' when looking up
             moveDirection *= walkSpeed;
+
             if (Input.GetButton("Jump"))
             {
-                controller.Move(moveDirection * Time.deltaTime);
+                if (!controller.isGrounded)
+                {
+                    moveDirection = moveDirection + this.transform.TransformDirection(moveDirection);
+                }
                 moveDirection.y = jumpSpeed;
             }
-            if(Input.GetKey(KeyCode.LeftShift))
+            if (Input.GetKey(KeyCode.LeftShift))
             {
                 moveDirection /= walkSpeed;
                 moveDirection *= runSpeed;
             }
+
         }
+
         moveDirection.y -= gravity * Time.deltaTime;
         controller.Move(moveDirection * Time.deltaTime);
+
+
     }
+
     
 }

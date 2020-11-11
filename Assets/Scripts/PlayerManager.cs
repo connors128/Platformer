@@ -74,8 +74,6 @@ public class PlayerManager : MonoBehaviour
 
             gameObject.name = "Dead Body";
 
-
-
             _fpsMovement.enabled = false;
             this.GetComponent<BoxCollider>().material = new PhysicMaterial("Dead Bounce");
             this.GetComponent<BoxCollider>().material.bounciness = .5f;

@@ -2115,6 +2115,9 @@ MonoBehaviour:
   Speed: 3
   changeTime: 2
   axisOfTransform: 0
+  velocity: {x: 0, y: 0, z: 0}
+  lastPos: {x: 0, y: 0, z: 0}
+  currentPos: {x: 0, y: 0, z: 0}
 --- !u!65 &380783815
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2268,6 +2271,9 @@ MonoBehaviour:
   Speed: 2
   changeTime: 2
   axisOfTransform: 1
+  velocity: {x: 0, y: 0, z: 0}
+  lastPos: {x: 0, y: 0, z: 0}
+  currentPos: {x: 0, y: 0, z: 0}
 --- !u!65 &420457803
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2407,6 +2413,9 @@ MonoBehaviour:
   Speed: 2
   changeTime: 2
   axisOfTransform: 1
+  velocity: {x: 0, y: 0, z: 0}
+  lastPos: {x: 0, y: 0, z: 0}
+  currentPos: {x: 0, y: 0, z: 0}
 --- !u!65 &495215513
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2546,6 +2555,9 @@ MonoBehaviour:
   Speed: 2
   changeTime: 2
   axisOfTransform: 1
+  velocity: {x: 0, y: 0, z: 0}
+  lastPos: {x: 0, y: 0, z: 0}
+  currentPos: {x: 0, y: 0, z: 0}
 --- !u!65 &536377735
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2685,6 +2697,9 @@ MonoBehaviour:
   Speed: 2
   changeTime: 2
   axisOfTransform: 1
+  velocity: {x: 0, y: 0, z: 0}
+  lastPos: {x: 0, y: 0, z: 0}
+  currentPos: {x: 0, y: 0, z: 0}
 --- !u!65 &625507058
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2810,6 +2825,9 @@ MonoBehaviour:
   Speed: 1.5
   changeTime: 2
   axisOfTransform: 0
+  velocity: {x: 0, y: 0, z: 0}
+  lastPos: {x: 0, y: 0, z: 0}
+  currentPos: {x: 0, y: 0, z: 0}
 --- !u!65 &661772850
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2963,6 +2981,9 @@ MonoBehaviour:
   Speed: 2
   changeTime: 2
   axisOfTransform: 1
+  velocity: {x: 0, y: 0, z: 0}
+  lastPos: {x: 0, y: 0, z: 0}
+  currentPos: {x: 0, y: 0, z: 0}
 --- !u!65 &779476536
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3102,6 +3123,9 @@ MonoBehaviour:
   Speed: 2
   changeTime: 2
   axisOfTransform: 1
+  velocity: {x: 0, y: 0, z: 0}
+  lastPos: {x: 0, y: 0, z: 0}
+  currentPos: {x: 0, y: 0, z: 0}
 --- !u!65 &886186188
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3447,6 +3471,9 @@ MonoBehaviour:
   Speed: 2
   changeTime: 2
   axisOfTransform: 1
+  velocity: {x: 0, y: 0, z: 0}
+  lastPos: {x: 0, y: 0, z: 0}
+  currentPos: {x: 0, y: 0, z: 0}
 --- !u!65 &1169381098
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3586,6 +3613,9 @@ MonoBehaviour:
   Speed: 2
   changeTime: 2
   axisOfTransform: 1
+  velocity: {x: 0, y: 0, z: 0}
+  lastPos: {x: 0, y: 0, z: 0}
+  currentPos: {x: 0, y: 0, z: 0}
 --- !u!65 &1228659668
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3725,6 +3755,9 @@ MonoBehaviour:
   Speed: 2
   changeTime: 2
   axisOfTransform: 1
+  velocity: {x: 0, y: 0, z: 0}
+  lastPos: {x: 0, y: 0, z: 0}
+  currentPos: {x: 0, y: 0, z: 0}
 --- !u!65 &1273579304
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6608,6 +6641,9 @@ MonoBehaviour:
   Speed: 2
   changeTime: 2
   axisOfTransform: 1
+  velocity: {x: 0, y: 0, z: 0}
+  lastPos: {x: 0, y: 0, z: 0}
+  currentPos: {x: 0, y: 0, z: 0}
 --- !u!65 &1861175012
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6747,6 +6783,9 @@ MonoBehaviour:
   Speed: 2
   changeTime: 2
   axisOfTransform: 1
+  velocity: {x: 0, y: 0, z: 0}
+  lastPos: {x: 0, y: 0, z: 0}
+  currentPos: {x: 0, y: 0, z: 0}
 --- !u!65 &1877006386
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6872,6 +6911,9 @@ MonoBehaviour:
   Speed: 2
   changeTime: 2
   axisOfTransform: 1
+  velocity: {x: 0, y: 0, z: 0}
+  lastPos: {x: 0, y: 0, z: 0}
+  currentPos: {x: 0, y: 0, z: 0}
 --- !u!65 &1994832883
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7011,6 +7053,9 @@ MonoBehaviour:
   Speed: 5
   changeTime: 2
   axisOfTransform: 0
+  velocity: {x: 0, y: 0, z: 0}
+  lastPos: {x: 0, y: 0, z: 0}
+  currentPos: {x: 0, y: 0, z: 0}
 --- !u!65 &2001463534
 BoxCollider:
   m_ObjectHideFlags: 0

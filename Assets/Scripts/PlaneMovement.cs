@@ -11,6 +11,9 @@ public class PlaneMovement : MonoBehaviour
     public float changeTime = 2.0f;
     private Vector3[] vectorAxis = new Vector3[7];
     public axisTransform axisOfTransform;
+    public Vector3 velocity, lastPos, currentPos;
+   
+
     // Start is called before the first frame update
     void Start()
     {
@@ -28,10 +31,17 @@ public class PlaneMovement : MonoBehaviour
     void FixedUpdate()
     {
         Plane.transform.Translate(Amplitude * GetAxis(axisOfTransform) * Mathf.Sin(((2 * Time.timeSinceLevelLoad) / changeTime) * Speed) * Time.fixedDeltaTime);
+        currentPos = Plane.transform.position;
+        velocity = lastPos - currentPos;
+        lastPos = currentPos;
     }
+
     public Vector3 GetAxis(axisTransform axis)
     {
         return vectorAxis[(int)axis];
     }
-
+    public Vector3 getVelocity()
+    {
+        return velocity;
+    }
 }
