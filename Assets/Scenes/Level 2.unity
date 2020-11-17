@@ -2114,9 +2114,9 @@ MonoBehaviour:
   Amplitude: 11
   Speed: 3
   changeTime: 2
+  velocity: 0
   axisOfTransform: 0
-  velocity: {x: 0, y: 0, z: 0}
-  lastPos: {x: 0, y: 0, z: 0}
+  previous: {x: 0, y: 0, z: 0}
   currentPos: {x: 0, y: 0, z: 0}
 --- !u!65 &380783815
 BoxCollider:
@@ -2270,9 +2270,9 @@ MonoBehaviour:
   Amplitude: 7
   Speed: 2
   changeTime: 2
+  velocity: 0
   axisOfTransform: 1
-  velocity: {x: 0, y: 0, z: 0}
-  lastPos: {x: 0, y: 0, z: 0}
+  previous: {x: 0, y: 0, z: 0}
   currentPos: {x: 0, y: 0, z: 0}
 --- !u!65 &420457803
 BoxCollider:
@@ -2412,9 +2412,9 @@ MonoBehaviour:
   Amplitude: 7
   Speed: 2
   changeTime: 2
+  velocity: 0
   axisOfTransform: 1
-  velocity: {x: 0, y: 0, z: 0}
-  lastPos: {x: 0, y: 0, z: 0}
+  previous: {x: 0, y: 0, z: 0}
   currentPos: {x: 0, y: 0, z: 0}
 --- !u!65 &495215513
 BoxCollider:
@@ -2554,9 +2554,9 @@ MonoBehaviour:
   Amplitude: 7
   Speed: 2
   changeTime: 2
+  velocity: 0
   axisOfTransform: 1
-  velocity: {x: 0, y: 0, z: 0}
-  lastPos: {x: 0, y: 0, z: 0}
+  previous: {x: 0, y: 0, z: 0}
   currentPos: {x: 0, y: 0, z: 0}
 --- !u!65 &536377735
 BoxCollider:
@@ -2696,9 +2696,9 @@ MonoBehaviour:
   Amplitude: 7
   Speed: 2
   changeTime: 2
+  velocity: 0
   axisOfTransform: 1
-  velocity: {x: 0, y: 0, z: 0}
-  lastPos: {x: 0, y: 0, z: 0}
+  previous: {x: 0, y: 0, z: 0}
   currentPos: {x: 0, y: 0, z: 0}
 --- !u!65 &625507058
 BoxCollider:
@@ -2824,9 +2824,9 @@ MonoBehaviour:
   Amplitude: 6
   Speed: 1.5
   changeTime: 2
+  velocity: 0
   axisOfTransform: 0
-  velocity: {x: 0, y: 0, z: 0}
-  lastPos: {x: 0, y: 0, z: 0}
+  previous: {x: 0, y: 0, z: 0}
   currentPos: {x: 0, y: 0, z: 0}
 --- !u!65 &661772850
 BoxCollider:
@@ -2980,9 +2980,9 @@ MonoBehaviour:
   Amplitude: 7
   Speed: 2
   changeTime: 2
+  velocity: 0
   axisOfTransform: 1
-  velocity: {x: 0, y: 0, z: 0}
-  lastPos: {x: 0, y: 0, z: 0}
+  previous: {x: 0, y: 0, z: 0}
   currentPos: {x: 0, y: 0, z: 0}
 --- !u!65 &779476536
 BoxCollider:
@@ -3122,9 +3122,9 @@ MonoBehaviour:
   Amplitude: 7
   Speed: 2
   changeTime: 2
+  velocity: 0
   axisOfTransform: 1
-  velocity: {x: 0, y: 0, z: 0}
-  lastPos: {x: 0, y: 0, z: 0}
+  previous: {x: 0, y: 0, z: 0}
   currentPos: {x: 0, y: 0, z: 0}
 --- !u!65 &886186188
 BoxCollider:
@@ -3470,9 +3470,9 @@ MonoBehaviour:
   Amplitude: 7
   Speed: 2
   changeTime: 2
+  velocity: 0
   axisOfTransform: 1
-  velocity: {x: 0, y: 0, z: 0}
-  lastPos: {x: 0, y: 0, z: 0}
+  previous: {x: 0, y: 0, z: 0}
   currentPos: {x: 0, y: 0, z: 0}
 --- !u!65 &1169381098
 BoxCollider:
@@ -3612,9 +3612,9 @@ MonoBehaviour:
   Amplitude: 7
   Speed: 2
   changeTime: 2
+  velocity: 0
   axisOfTransform: 1
-  velocity: {x: 0, y: 0, z: 0}
-  lastPos: {x: 0, y: 0, z: 0}
+  previous: {x: 0, y: 0, z: 0}
   currentPos: {x: 0, y: 0, z: 0}
 --- !u!65 &1228659668
 BoxCollider:
@@ -3754,9 +3754,9 @@ MonoBehaviour:
   Amplitude: 7
   Speed: 2
   changeTime: 2
+  velocity: 0
   axisOfTransform: 1
-  velocity: {x: 0, y: 0, z: 0}
-  lastPos: {x: 0, y: 0, z: 0}
+  previous: {x: 0, y: 0, z: 0}
   currentPos: {x: 0, y: 0, z: 0}
 --- !u!65 &1273579304
 BoxCollider:
@@ -6640,9 +6640,9 @@ MonoBehaviour:
   Amplitude: 7
   Speed: 2
   changeTime: 2
+  velocity: 0
   axisOfTransform: 1
-  velocity: {x: 0, y: 0, z: 0}
-  lastPos: {x: 0, y: 0, z: 0}
+  previous: {x: 0, y: 0, z: 0}
   currentPos: {x: 0, y: 0, z: 0}
 --- !u!65 &1861175012
 BoxCollider:
@@ -6782,9 +6782,9 @@ MonoBehaviour:
   Amplitude: 7
   Speed: 2
   changeTime: 2
+  velocity: 0
   axisOfTransform: 1
-  velocity: {x: 0, y: 0, z: 0}
-  lastPos: {x: 0, y: 0, z: 0}
+  previous: {x: 0, y: 0, z: 0}
   currentPos: {x: 0, y: 0, z: 0}
 --- !u!65 &1877006386
 BoxCollider:
@@ -6910,9 +6910,9 @@ MonoBehaviour:
   Amplitude: 7
   Speed: 2
   changeTime: 2
+  velocity: 0
   axisOfTransform: 1
-  velocity: {x: 0, y: 0, z: 0}
-  lastPos: {x: 0, y: 0, z: 0}
+  previous: {x: 0, y: 0, z: 0}
   currentPos: {x: 0, y: 0, z: 0}
 --- !u!65 &1994832883
 BoxCollider:
@@ -7052,9 +7052,9 @@ MonoBehaviour:
   Amplitude: 12
   Speed: 5
   changeTime: 2
+  velocity: 0
   axisOfTransform: 0
-  velocity: {x: 0, y: 0, z: 0}
-  lastPos: {x: 0, y: 0, z: 0}
+  previous: {x: 0, y: 0, z: 0}
   currentPos: {x: 0, y: 0, z: 0}
 --- !u!65 &2001463534
 BoxCollider:
@@ -7152,6 +7152,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1994913684764397635, guid: 2174e4eee1919d84d96c1930aaeb1dc6, type: 3}
+      propertyPath: m_Interpolate
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7020247728973293430, guid: 2174e4eee1919d84d96c1930aaeb1dc6, type: 3}
       propertyPath: m_Name
       value: Player
@@ -7208,5 +7212,6 @@ PrefabInstance:
       propertyPath: prefabPlayer
       value: 
       objectReference: {fileID: 7020247728973293430, guid: 2174e4eee1919d84d96c1930aaeb1dc6, type: 3}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1994913684764397635, guid: 2174e4eee1919d84d96c1930aaeb1dc6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 2174e4eee1919d84d96c1930aaeb1dc6, type: 3}
