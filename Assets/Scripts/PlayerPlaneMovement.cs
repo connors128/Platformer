@@ -1,37 +1,24 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerPlaneMovement : MonoBehaviour
 {
 
-    public static GameObject Player;
+    public GameObject Player;
 
-    static int onNumPlatforms = 0;
     //public static Vector3 playerJumpVelocity;
 
-    private void OnTriggerEnter(Collider col)
+    private void OnTriggerStay(Collider col)
     {
-        if (col.gameObject == Player)
-        {            
-            Player.transform.parent = this.transform;
-            onNumPlatforms++;
-        }
+         
+        //Debug.Log(this.GetComponent<PlaneMovement>().FrameVelocity);
+        Player.GetComponent<FPSMovement>().moveDirection += (this.GetComponent<PlaneMovement>().currFrameVelocity);
+
     }
+
     private void OnTriggerExit(Collider col)
     {
-        if(col.gameObject == Player && onNumPlatforms == 1 )
-        {
-            Player.transform.parent = null;
-
-            onNumPlatforms--;
-            //Debug.Log("Exit " + onNumPlatforms);
-        }
-        else if(col.gameObject == Player && onNumPlatforms > 1 )
-        {
-            onNumPlatforms--;
-            //Debug.Log("Exit " + onNumPlatforms);
-        }
-
+        Player.GetComponent<FPSMovement>().moveDirection = this.GetComponent<PlaneMovement>().currFrameVelocity;
     }
 }

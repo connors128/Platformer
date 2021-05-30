@@ -13,6 +13,7 @@ public class PlaneMovement : MonoBehaviour
     public Vector3 currentPos;
     public Vector3 FrameVelocity { get; set; }
     public Vector3 PrevPosition { get; set; }
+    public Vector3 currFrameVelocity;
     GameObject Plane;
 
     // Start is called before the first frame update
@@ -31,14 +32,16 @@ public class PlaneMovement : MonoBehaviour
     void FixedUpdate()
     {
         Plane.transform.Translate(Amplitude * GetAxis(axisOfTransform) * Mathf.Sin(((2 * Time.timeSinceLevelLoad) / changeTime) * Speed) * Time.fixedDeltaTime);
+        currFrameVelocity = (transform.position - PrevPosition) / Time.deltaTime;
+
     }
 
     public void Update()
     {
-        Vector3 currFrameVelocity = (transform.position - PrevPosition) / Time.deltaTime;
         FrameVelocity = Vector3.Lerp(FrameVelocity, currFrameVelocity, 0.1f); //lerping the velocity to avoid single frame irregularities
         PrevPosition = transform.position;
     }
+
     public Vector3 GetAxis(axisTransform axis)
     {
         return vectorAxis[(int)axis];

@@ -32,7 +32,6 @@ public class PlayerManager : MonoBehaviour
         _fpsMovement = this.GetComponent<FPSMovement>();
         _playerManager = this.GetComponent<PlayerManager>();
         _text = gameObject.GetComponentInChildren<Canvas>().GetComponentInChildren<Text>();
-        PlayerPlaneMovement.Player = prefabPlayer;
     }
     private void Awake()
     {
@@ -41,7 +40,7 @@ public class PlayerManager : MonoBehaviour
         resetPosition = prefabPlayer.transform.position;
         _text = gameObject.GetComponentInChildren<Canvas>().GetComponentInChildren<Text>();
         this.name = "Player";
-        PlayerPlaneMovement.Player = prefabPlayer;
+
     }
     private void FixedUpdate()
     {
